@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .model{
+            width: 900px;
+            padding: 13px;
+            margin: auto;
+            height: fit-content;
+            background-color: #fff;
+            border-radius: 23px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .part:nth-child(1){
+            width: 59%;
+
+        }
+        .part:nth-child(1){
+            width: 40%;
+            
+        }
+        .part{
+            display: inline-block;
+            vertical-align: top;
+        }
+       .part img.right-side{
+            width: 100%;
+        }
+        .part > div{
+            width: 82%;
+            padding-left: 35px;
+        }
+        .list-icon{
+            vertical-align: middle;
+            width: 15px;
+            margin-right: 15px;
+        }
+
+        .model ol{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        li{
+            line-height: 40px;
+        }
+        /* .part p,
+        .part li{
+            font-size: 0.8em;
+        } */
+             
+      #form{
+        margin-top: 40px;
+      }
+    #form label{
+        font-weight: bold;
+        font-size: 13px;
+    }
+      #form input{
+        height: 45px;
+        width: 316px;
+        margin-top: 10px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        text-indent: 10px;
+        cursor: pointer;
+      }
+      #form button{
+        height: 45px;
+        margin-top: 10px;
+        background-color: #232742;
+        color: white;
+        font-size: 16px;
+        width: 316px;
+        border: 1px solid #232742;
+        border-radius: 10px;
+        text-indent: 10px;
+      }
+      #form button:hover{
+        cursor: pointer;
+        border: none; 
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,103,66,1) 0%, rgba(255,84,116,1) 99%);
+      }
+    </style>
+</head>
+<body>
+    <div class="model">
+        <div class="part">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates of</p>
+            <ol>
+                <li><img class="list-icon" src="./icon-list.svg" alt="" >Product Discovery and building what matters</li>
+                <li><img class="list-icon" src="./icon-list.svg" alt="" >Measuring to ensure updates are a success</li>
+                <li><img class="list-icon" src="./icon-list.svg" alt="" >And much more!</li>
+                <div id="form">
+                    <form action="">
+                      <label for=""> Email Address </label> <br>
+                      <input type="email" placeholder="email@company.com"> <br>
+                      <button type="submit">Subscribe to monthly newsteller</button>
+                    </form>
+              </div>
+            </ol>
+           
+        </div>
+        <div class="part">
+            <img class="right-side" src="./illustration-sign-up-desktop.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>

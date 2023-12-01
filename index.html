@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .model{
+            padding: 13px;
+            width: 900px;
+            height: fit-content;
+            background-color: white;
+            margin: auto;
+            border-radius: 23px;
+            position: absolute;
+            top:0;
+            bottom:0;
+            left: 0;
+            right: 0;
+        }
+        ol{
+            list-style: none;
+        }
+        ol img{
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .part:nth-child(1){
+            width: 59%;
+        }
+        .part:nth-child(2){
+            width: 40%;
+        }
+        .part:nth-child(2){
+            width: fit-content;
+         
+        }
+        .part{
+            display: inline-block;
+            vertical-align: top;
+        }
+        .part img.rightside{
+            width: 100%;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="model">
+        <div class="part">
+            <div>
+                <h1>Stay Updated</h1>
+                <p>Join 60,000+ products managers receving monthly updates on:</p>
+                <ol>
+                    <li><img src="./icon-list.svg" alt="">Product discovering and building what matters</li>
+                    <li><img src="./icon-list.svg" alt="">Measure to ensure updates are a success</li>
+                    <li><img src="./icon-list.svg" alt="">And much more</li>
+                </ol>
+            </div>
+        </div>
+        <div class="part"><img class="rightside"  src="./illustration-sign-up-desktop.svg" alt=""></div>
+
+    </div>
+</body>
+</html>
